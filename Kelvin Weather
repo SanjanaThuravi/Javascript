@@ -1,0 +1,8 @@
+//Program to convert temperature in Kelvin to Celsius and Fahrenheit scale
+
+const kelvin = 0;
+let celsius = kelvin - 273;
+console.log(`Temperature in Celsius is ${celsius}`);
+let fahrenheit = celsius * (9/5) + 32;
+fahrenheit = Math.floor(fahrenheit);
+console.log(`Temperature in Fahrenheit is ${fahrenheit}`);
